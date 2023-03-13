@@ -1,9 +1,9 @@
-.main-container {
+.main-header-container {
   position: sticky;
   bottom:0;
   border-bottom: 2px solid black;
   height: 80px;
-  .container {
+  .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,14 +13,14 @@
     max-height: 60px;
   }
 
-  .container-right {
+  .header-container-right {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
 
-  .container-right-title {
+  .header-container-right-title {
     font-size: 30px;
     display: flex;
     flex-direction: row;

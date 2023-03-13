@@ -8,12 +8,12 @@ import { faSun } from "@fortawesome/free-solid-svg-icons";
 function Header() {
   return (
     <div>
-      <div className="main-container">
-    <div className="container">
+      <div className="main-header-container">
+    <div className="header-container">
 
         <h1> Sabra</h1>
-        <div className="container-right">
-          <div className="container-right-title">
+        <div className="header-container-right">
+          <div className="header-container-right-title">
             <h6> Home </h6>
             <h6> About </h6>
             <h6> Project </h6>
