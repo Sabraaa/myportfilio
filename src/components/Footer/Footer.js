@@ -4,8 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faGithub,
-  faLinkedin,
-  faEnvelope,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope as solidEnvelope } from "@fortawesome/free-solid-svg-icons";
 
