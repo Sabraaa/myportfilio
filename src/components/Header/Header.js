@@ -1,31 +1,32 @@
 import React from "react";
 import "./Header.scss";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faSolid} from '@fortawesome/fontawesome-svg-core/import.macro'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <div>
       <div className="main-header-container">
-    <div className="header-container">
-
-        <h1> Sabra</h1>
-        <div className="header-container-right">
-          <div className="header-container-right-title">
-            <h6> Home </h6>
-            <h6> About </h6>
-            <h6> Project </h6>
-            <h6> Resume </h6>
+        <div className="header-container">
+          <h1> Sabra</h1>
+          <div className="header-container-right">
+            <div className="header-container-right-title">
+              <Link className="header-link" to="/">
+                Home
+              </Link>
+              {/* <Link className="header-link" to="/About">
+                About
+              </Link> */}
+              <NavLink to="/About"> About </NavLink>
+              {/* <Link to="/projects">Projects</Link> */}
+              {/* <Link to="/resume">Resume</Link> */}
+            </div>
+            <button className="btn">
+              <FontAwesomeIcon icon={faSun} />
+            </button>
           </div>
-          <button className="btn">
-            <FontAwesomeIcon icon={faSun} />
-            {/* <i className="fa-solid fa-sun-bright"></i> */}
-            {/* <FontAwesomeIcon icon={solid('sun-bright')} /> */}
-          </button>
         </div>
-    </div>
       </div>
     </div>
   );

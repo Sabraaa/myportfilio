@@ -1,17 +1,26 @@
 .mainfooter-container {
-  border-top: 2px solid black;
-  flex: 1;
-
+  border-top: 1px solid #bc6c25;
   .footer-container {
     font-family: math;
+    color: #bc6c25;
     position: sticky;
-    left: 50%;
     bottom: 0;
-    // min-height:10000px;
-    top: auto;
+    right: 0;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    .footer-icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+      margin-right: 10px;
+    }
+    .footer-icon {
+      color: #bc6c25;
+    }
   }
 }

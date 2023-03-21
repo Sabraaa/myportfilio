@@ -1,15 +1,12 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import About from "./screen/About/About";
-import Home from "./components/Home/Home"
+import AppRoute from "./routes/AppRouts";
+import Layout from "./Layout/Layout";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Home/>
-      {/* <About /> */}
-      <Footer />
+      <Layout>
+        <AppRoute />
+      </Layout>
     </div>
   );
 }
