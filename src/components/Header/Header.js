@@ -12,7 +12,18 @@ function Header() {
           <h1> Sabra</h1>
           <div className="header-container-right">
             <div className="header-container-right-title">
+              <>
+                <Link className="header-link" to="/">
+                  Home
+                </Link>
+                <Link className="header-link" to="/About">
+                  About
+                </Link>
                 
+                <Link className="header-link" to="/projects">Projects</Link>
+                <Link className="header-link" to="/resume">Resume</Link>
+                <Outlet />
+              </>
             </div>
             <button className="btn">
               <FontAwesomeIcon icon={faSun} />
