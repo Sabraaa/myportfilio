@@ -30,8 +30,8 @@ import React from "react";
 import "./Layout.scss";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import { BrowserRouter, Outlet } from "react-router-dom";
-import AppRoute from "../routes/AppRoute";
+import { Outlet } from "react-router-dom";
+// import AppRoute from "../routes/AppRoute";
 
 const Layout = () => {
   return (
