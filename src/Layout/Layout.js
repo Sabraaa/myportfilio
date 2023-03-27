@@ -2,15 +2,18 @@ import React from "react";
 import "./Layout.scss";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import Home from "../components/Home/Home";
 
-const Layout = () => {
+console.log("Layout component loaded"); 
+const Layout = ({children}) => {
   return (
     <div>
       <div className="layout-header">
         <Header />
       </div>
-   ????????????????
+      {/* <div>asdfghjk</div> */}
+      <main className="layout-main">
+        {children}
+      </main>
       <div className="layout-footer">
         <Footer />
       </div>

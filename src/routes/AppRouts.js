@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // import Footer from "../components/Footer/Footer";
 // import Header from "../components/Header/Header";
@@ -12,6 +12,8 @@ import NoPath from "../screen/NoPath/NoPath"
 
 const AppRoute = () => {
   return (
+    <BrowserRouter basename="/SABRASPORTFOLIO">
+
     <Router>
       <div className="approutes">
         <Routes>
@@ -23,6 +25,7 @@ const AppRoute = () => {
         </Routes>
       </div>
     </Router>
+    </BrowserRouter>
   );
 };
 
