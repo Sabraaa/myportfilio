@@ -1,6 +1,11 @@
 import React from "react";
 import "./Projects.scss";
 import ProImg from "../../assets/imgproject.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSquareArrowUpRight,
+  faCode,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
@@ -28,8 +33,14 @@ const Projects = () => {
                   account information and transaction history.
                 </div>
                 <div className="pro-examples-btn">
-                  <button className="pro-examples-btn-live"> Live</button>
-                  <button className="pro-examples-btn-sourse"> Sourse</button>
+                  <button className="pro-examples-btn-live">
+                    <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                    Live
+                  </button>
+                  <button className="pro-examples-btn-sourse">
+                    <FontAwesomeIcon icon={faCode} />
+                    Sourse
+                  </button>
                 </div>
               </div>
               <div className="pro-examples-image">
@@ -37,6 +48,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <a href="https://github.com/Sabraaa">
+            <button className="seeall">See All</button>
+          </a>
         </div>
       </div>
     </div>
