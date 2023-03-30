@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.scss";
-// import { useNavigate } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 import Avatar from "../../assets/homepfp.jpg";
 
 const Home = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/about");
+  };
 
   return (
     <div>
@@ -25,6 +27,7 @@ const Home = () => {
             className="home-btn"
             type="button"
             // onClick={() => navigate("/About")}
+            onClick={handleClick}
           >
             More about me
           </button>

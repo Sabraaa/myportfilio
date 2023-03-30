@@ -37,10 +37,12 @@ const Projects = () => {
                     <FontAwesomeIcon icon={faSquareArrowUpRight} />
                     Live
                   </button>
-                  <button className="pro-examples-btn-sourse">
-                    <FontAwesomeIcon icon={faCode} />
-                    Sourse
-                  </button>
+                  <a href="https://github.com/Sabraaa/sabrasportfilio">
+                    <button className="pro-examples-btn-sourse">
+                      <FontAwesomeIcon icon={faCode} />
+                      Sourse
+                    </button>
+                  </a>
                 </div>
               </div>
               <div className="pro-examples-image">
