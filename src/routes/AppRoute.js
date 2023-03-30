@@ -12,6 +12,7 @@ import About from "../screen/About/About";
 import Layout from "../Layout/Layout";
 import NoPath from "../screen/NoPath/NoPath";
 import Projects from "../screen/projects/Projects";
+import Resume from "../screen/resume/Resume";
 
 const AppRoute = () => {
   return (
@@ -22,6 +23,7 @@ const AppRoute = () => {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects/>}/>
+          {/* <Route path="resume" element={<Resume/>}/> */}
           <Route path="*" element={<NoPath />} />
         </Route>
       </Routes>
