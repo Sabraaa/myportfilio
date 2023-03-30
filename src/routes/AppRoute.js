@@ -11,6 +11,7 @@ import Home from "../components/Home/Home";
 import About from "../screen/About/About";
 import Layout from "../Layout/Layout";
 import NoPath from "../screen/NoPath/NoPath";
+import Projects from "../screen/projects/Projects";
 
 const AppRoute = () => {
   return (
@@ -20,6 +21,7 @@ const AppRoute = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects/>}/>
           <Route path="*" element={<NoPath />} />
         </Route>
       </Routes>
