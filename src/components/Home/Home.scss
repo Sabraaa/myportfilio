@@ -2,8 +2,13 @@ body {
   background-color: #fefae0;
 }
 .home-container {
-  margin-top: 15%;
-  margin-bottom: 10%;
+  margin-top: 25%;
+  margin-bottom: 19%;
+  @media screen and (max-width:650px){
+    margin-top: 20%;
+    margin-bottom: 50%;
+
+  }
   .home-profile {
     display: flex;
     justify-content: center;
@@ -13,6 +18,10 @@ body {
       width: 300px;
       height: 300px;
       margin: 1% 2%;
+      @media screen and (max-width:650px) {
+        width: 200px;
+        height: 200px;
+      }
     }
   }
   .home-column {
@@ -31,11 +40,17 @@ body {
         font-size: 30px;
         font-family: math;
         color: #606c38;
+        @media screen and (max-width:650px){
+          font-size: 25px;
+        }
       }
       .home-myname {
         font-size: 50px;
         font-family: math;
         color: #606c38;
+        @media screen and (max-width:650px){
+          font-size: 40px;
+        }
       }
     }
     .home-description {
@@ -45,6 +60,9 @@ body {
       font-size: 30px;
       font-family: math;
       color: #606c38;
+      @media screen and (max-width:650px){
+        font-size: 20px;
+      }
     }
   }
   .home-btn-container {

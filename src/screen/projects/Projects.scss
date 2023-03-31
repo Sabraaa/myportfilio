@@ -13,10 +13,6 @@
       font-family: math;
       color: #606c38;
     }
-    .pro-examples-container {
-      .pro-examples {
-      }
-    }
   }
 }
 .pro-examples-btn {
@@ -69,12 +65,19 @@
   //   margin: 1% 2%;
   width: 450px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  @media screen and (max-width:730px){
+width: 400px;
+  }
 }
 .pro-img-ex-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap-reverse;
+  @media screen and (max-width:1080px){
+    
+  }
 }
 .pro-examples-title {
   font-size: 30px;
