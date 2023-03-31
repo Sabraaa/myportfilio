@@ -40,10 +40,12 @@ const Projects = () => {
                   account information and transaction history.
                 </div>
                 <div className="pro-examples-btn">
-                  {/* <button className="pro-examples-btn-live">
-                    <FontAwesomeIcon icon={faSquareArrowUpRight} />
-                    Live
-                  </button> */}
+                  <a href="https://luxury-gecko-4f43a0.netlify.app">
+                    <button className="pro-examples-btn-live">
+                      <FontAwesomeIcon icon={faSquareArrowUpRight} />
+                      Live
+                    </button>
+                  </a>
                   <a href="https://github.com/Sabraaa/sabrasportfilio">
                     <button className="pro-examples-btn-sourse">
                       <FontAwesomeIcon icon={faCode} />
@@ -59,9 +61,9 @@ const Projects = () => {
                   src={ProImg}
                   // onClick={() => handleImgClick("ProImg")}
                 />
-              {/* {fullScreenImage && (
+                {/* {fullScreenImage && (
                 <fullScreenImage ProImg={fullScreenImage} onClose={handleCloseFullScreenImage} /> */}
-              {/* )} */}
+                {/* )} */}
               </div>
             </div>
           </div>
