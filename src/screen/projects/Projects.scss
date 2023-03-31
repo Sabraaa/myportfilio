@@ -48,6 +48,10 @@
     background-color: #606c386c;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    &:hover{
+      cursor: pointer;
+      background-color: #606c389f;
+    }
   }
 }
 .pro-examples-desc {
@@ -107,6 +111,10 @@
   background-color: #606c386c;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  &:hover{
+  background-color: #606c38a8;
+  cursor: pointer;
+  }
 }
 a {
   text-decoration: none;

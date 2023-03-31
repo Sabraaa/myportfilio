@@ -21,7 +21,12 @@
       margin-right: 10px;
     }
     .footer-icon {
-      color: #bc6c25;
+      color: #bc6b25d5;
+      &:hover {
+        cursor: pointer;
+        color: #bc6c25;
+        font-size: 15px;
+      }
     }
   }
 }

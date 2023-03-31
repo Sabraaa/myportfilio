@@ -34,7 +34,7 @@ const About = () => {
         </div>
       </div>
       <div className="bottom-about-container">
-        <div className="bottom-about-title"> Skills & Tools </div>
+        <div className="bottom-about-title"> Skills & Tools: </div>
         <div className="bottom-about-icons">
           <img src={HTML} alt="..." className="img-in-about" />
           <img src={CSS} alt="..." className="img-in-about" />

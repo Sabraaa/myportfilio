@@ -1,4 +1,6 @@
 import React from "react";
+import Fullscreen from "../../components/Fullscreen/Fullscreen";
+import { useState } from "react";
 import "./Projects.scss";
 import ProImg from "../../assets/imgproject.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,6 +10,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
+  // const [fullScreenImage, setFullScreenImage] = useState(null);
+  // const handleImgClick = (ProImg) => {
+  //   setFullScreenImage(null);
+  // };
+
   return (
     <div className="pro-main-container">
       <div className="pro-container">
@@ -33,10 +40,10 @@ const Projects = () => {
                   account information and transaction history.
                 </div>
                 <div className="pro-examples-btn">
-                  <button className="pro-examples-btn-live">
+                  {/* <button className="pro-examples-btn-live">
                     <FontAwesomeIcon icon={faSquareArrowUpRight} />
                     Live
-                  </button>
+                  </button> */}
                   <a href="https://github.com/Sabraaa/sabrasportfilio">
                     <button className="pro-examples-btn-sourse">
                       <FontAwesomeIcon icon={faCode} />
@@ -46,7 +53,15 @@ const Projects = () => {
                 </div>
               </div>
               <div className="pro-examples-image">
-                <img className="pro-examples-image" alt="..." src={ProImg} />
+                <img
+                  className="pro-examples-image"
+                  alt="..."
+                  src={ProImg}
+                  // onClick={() => handleImgClick("ProImg")}
+                />
+              {/* {fullScreenImage && (
+                <fullScreenImage ProImg={fullScreenImage} onClose={handleCloseFullScreenImage} /> */}
+              {/* )} */}
               </div>
             </div>
           </div>

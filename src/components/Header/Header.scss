@@ -44,6 +44,12 @@ body {
       color: #fefae0;
       text-decoration: none;
       font-size: 25px;
+      &:hover {
+        cursor: pointer;
+        font-size: 24px;
+        color: aliceblue;
+        // text-decoration: underline;
+      }
     }
   }
 
@@ -53,5 +59,8 @@ body {
     width: 100px;
     color: #fefae0;
     font-size: larger;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
