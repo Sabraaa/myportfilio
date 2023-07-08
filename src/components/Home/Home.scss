@@ -1,14 +1,14 @@
 @keyframes morph {
   0% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 
   50% {
-      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
   }
 
   100% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
 body {
@@ -88,6 +88,41 @@ body {
         font-size: 20px;
       }
     }
+    .home-touch {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      // flex-direction: row;
+      line-height: 150%;
+      margin-top: 1%;
+      font-size: 21px;
+      font-family: math;
+      color: #584937c9;
+    }
+    .home-contact {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+
+      line-height: 150%;
+      // margin-top: 1%;
+      font-size: 16px;
+      font-family: math;
+      color: #584937c9;
+      .home-contact-tel {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+      }
+      .home-contact-mail {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
   }
   .home-btn-container {
     display: flex;
@@ -110,4 +145,7 @@ body {
       }
     }
   }
+}
+a {
+  color: #584937a8;
 }

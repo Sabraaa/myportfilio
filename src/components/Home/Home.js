@@ -21,6 +21,12 @@ const Home = () => {
             <div className="home-myname"> Sabra Akhavan</div>
           </div>
           <div className="home-description"> "Front-end Developer"</div>
+          
+          <div className="home-touch">You can get in touch with me on:</div>
+          <div className="home-contact">
+            <a className="home-contact-tel" href="tel:+989214053184">Phone: +989214053184</a>
+            <a className="home-contact-mail" href="mailto:iam@sabraakhavan.ir">Mail:Iam@sabraakhavan.ir</a>
+          </div>
         </div>
         <div className="home-btn-container">
           <button
