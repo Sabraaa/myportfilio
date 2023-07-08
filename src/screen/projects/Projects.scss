@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   .pro-container {
-    padding: 5% 8%;
+    padding: 2% 8%;
     .pro-title {
       display: flex;
       justify-content: center;
@@ -31,6 +31,10 @@
     background-color: #dda25e7e;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    &:hover {
+      cursor: pointer;
+      background-color: #dda25eb6;
+    }
   }
   .pro-examples-btn-sourse {
     display: flex;
