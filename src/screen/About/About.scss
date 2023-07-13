@@ -51,6 +51,16 @@ body {
   }
 }
 .img-in-about {
+  @media screen and (max-width: 681px) {
+    display: flex;
+    max-width: 60px;
+    max-height: 60px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
  
   margin: 10px;
   max-width: 90px;

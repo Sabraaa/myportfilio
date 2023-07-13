@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <div>
+    <div >
       <div className={`main-header-container ${theme}`}>
         <div className="header-container">
           <div className="header-profile-name"> Sabra</div>

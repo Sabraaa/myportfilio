@@ -17,7 +17,7 @@ const About = () => {
         <div className="top-about-title-two"> Here is my story;</div>
         <div className="top-about-prgrph">
           {" "}
-          Hi, I'm Sabra Akhavan. a front-end web developer from Iran. I enjoy
+          Hi, I'm Sabra Akhavan. A front-end web developer from Iran. I enjoy
           seeking out creative solutions to complex problems. It was back in
           late 2021 when I got interested in Web Development and decided to
           learn HTML & CSS. Fast forward to today, I learned various web

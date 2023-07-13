@@ -28,7 +28,7 @@ const Home = () => {
               Phone: +989214053184
             </a>
             <a className="home-contact-mail" href="mailto:iam@sabraakhavan.ir">
-              Mail:Iam@sabraakhavan.ir
+              Mail: Iam@sabraakhavan.ir
             </a>
           </div>
         </div>

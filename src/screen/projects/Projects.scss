@@ -61,17 +61,15 @@
   font-family: math;
 }
 .pro-examples-image {
+  @media screen and (max-width: 681px) {
+    width: 300px;
+  }
   display: flex;
   justify-content: center;
   align-items: center;
-  //   margin: 0.5rem;
   border-radius: 5%;
-  //   margin: 1% 2%;
   width: 450px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  @media screen and (max-width: 730px) {
-    width: 400px;
-  }
 }
 .pro-img-ex-row {
   display: flex;
@@ -106,6 +104,9 @@
   margin: 5% 3%;
 }
 .seeall {
+  @media screen and (max-width: 681px){
+    margin-bottom: 5%;
+  }
   display: flex;
   justify-content: center;
   align-items: center;

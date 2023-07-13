@@ -3,14 +3,16 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-
+  // overflow-x: hidden;
 }
 
 .main-header-container {
+  @media screen and (max-width: 681px) {
+  }
   background-color: #dda15e;
   position: sticky;
   top: 0;
-  padding: 0 30px;
+  // padding: 0 30px;
   border-bottom: 1px solid #bc6c25;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
@@ -23,10 +25,11 @@ body {
   }
   .header-profile-name {
     font-size: 30px;
-    margin: 13px 50px;
+    margin: 13px 35px;
   }
 
   .header-container-right {
+    // padding-right: 1px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,14 +42,14 @@ body {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     font-family: math;
     .header-link {
       color: #fefae0;
       text-decoration: none;
-      font-size: 20px;
-      transition: all 350ms ;
-      &:hover{
+      font-size: 17px;
+      transition: all 350ms;
+      &:hover {
         transform: scale(0.9);
         cursor: pointer;
         color: rgb(255, 254, 240);
@@ -62,9 +65,8 @@ body {
     font-size: larger;
     &:hover {
       cursor: pointer;
-      font-size: 19px;
+      font-size: 1px;
       color: aliceblue;
     }
   }
 }
-

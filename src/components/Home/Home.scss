@@ -17,9 +17,10 @@ body {
 .home-container {
   margin-top: 7%;
   margin-bottom: 4%;
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 681px) {
     margin-top: 20%;
     margin-bottom: 50%;
+    // margin-left: 20%;
   }
   .home-profile {
     display: flex;
@@ -45,6 +46,11 @@ body {
     align-items: center;
     flex-direction: column;
     .home-row {
+      @media screen and (max-width: 681px) {
+        // margin-left: 12%;
+        margin-top: 8%;
+        flex-direction: column;
+      }
       display: flex;
       justify-content: center;
       align-items: center;
@@ -60,11 +66,14 @@ body {
         }
       }
       .home-myname {
+        @media screen and (max-width: 681px) {
+          font-size: 20px;
+        }
         font-size: 50px;
         font-family: math;
         color: #606c38;
-        @media screen and (max-width: 650px) {
-          font-size: 40px;
+        @media screen and (max-width: 681px) {
+          font-size: 30px;
         }
       }
     }
@@ -80,6 +89,7 @@ body {
       }
     }
     .home-touch {
+    
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -97,7 +107,6 @@ body {
       flex-direction: column;
 
       line-height: 150%;
-      // margin-top: 1%;
       font-size: 16px;
       font-family: math;
       color: #584937c9;
