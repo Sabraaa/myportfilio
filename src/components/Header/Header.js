@@ -29,15 +29,8 @@ function Header() {
                 <Link className="header-link" to="/projects">
                   Projects
                 </Link>
-                <div
-                  className="header-link"
-                  // to="/resume"
-                  onClick={() => window.open(`${RSM}`, "_blank")}
-                >
-                <button className="btn-resume">
-
-                  Resume
-                </button>
+                <div onClick={() => window.open(`${RSM}`, "_blank")}>
+                  <button className="btn-resume">Resume</button>
                 </div>
               </nav>
             </div>
