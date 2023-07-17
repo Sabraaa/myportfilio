@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <div >
+    <div>
       <div className={`main-header-container ${theme}`}>
         <div className="header-container">
           <div className="header-profile-name"> Sabra</div>
@@ -29,16 +29,19 @@ function Header() {
                 <Link className="header-link" to="/projects">
                   Projects
                 </Link>
-                <Link
+                <div
                   className="header-link"
-                  to="/resume"
+                  // to="/resume"
                   onClick={() => window.open(`${RSM}`, "_blank")}
                 >
+                <button className="btn-resume">
+
                   Resume
-                </Link>
+                </button>
+                </div>
               </nav>
             </div>
-              {/* <button className="btn">
+            {/* <button className="btn">
                 <FontAwesomeIcon icon={theme === "light" ? faMoon : faSun} />
               </button> */}
           </div>

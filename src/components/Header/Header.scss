@@ -7,12 +7,23 @@ body {
 }
 
 .main-header-container {
-  @media screen and (max-width: 681px) {
+  @media screen and (max-width: 683px) {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 200px;
   }
+  padding: 0 300px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #dda15e;
   position: sticky;
   top: 0;
-  // padding: 0 30px;
+  left: 0;
+  right: 0;
   border-bottom: 1px solid #bc6c25;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
@@ -26,6 +37,14 @@ body {
   .header-profile-name {
     font-size: 30px;
     margin: 13px 35px;
+    @media screen and (max-width: 376px) {
+      padding: 0 9px;
+      margin: 15px;
+    }
+    @media screen and (max-width: 376px) {
+      padding: 0 5px;
+      margin: 15px;
+    }
   }
 
   .header-container-right {
@@ -69,4 +88,12 @@ body {
       color: aliceblue;
     }
   }
+}
+.btn-resume {
+  border: none;
+  background: none;
+  font-family: math;
+  font-size: 17px;
+  color: beige;
+  padding: 0;
 }
